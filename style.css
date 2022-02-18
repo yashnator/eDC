@@ -46,9 +46,45 @@
     }
     
     .carousel-caption {
-        background-color: rgba(197, 231, 226, 0.795);
+        background-color: rgba(47, 133, 179, 0.795);
         border-radius: 50rem;
         border: solid 0.2rem #2D3047;
         color: #2D3047;
         color: #2D3047;
+    }
+    
+    .jumbotron {
+        margin: 2rem 20vw;
+        text-align: center;
+    }
+    
+    .buttonsJ {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .buttonsJ>* {
+        margin: 0 1rem;
+    }
+    
+    #testWrapper {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        margin: 5rem auto 8rem auto;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    #test {
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #test>img {
+        height: 100%;
+        width: auto;
     }
