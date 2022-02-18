@@ -88,3 +88,14 @@
         height: 100%;
         width: auto;
     }
+    
+    .members {
+        height: 30vh;
+        width: auto;
+        margin: 2.5rem auto;
+    }
+    
+    .members>img {
+        height: 100%;
+        width: auto;
+    }
